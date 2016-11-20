@@ -1,5 +1,16 @@
 another bug fix...
 
+<<<<<<< HEAD
 here's more bug fits'n I added while you/I also edited this file somewhere/sometime before I'm going to try to push this up...
 
 Let's see what happens???
+^^^ Todd after
+=======
+
+I don't know what I are doin and I dun broked your bug fits!!!
+you gotta fits ma fits!
+^^^ Chaos before
+>>>>>>> 6cc41fbf7cf82702c12e248f8c113a7991d01d1b
+
+So I (Todd) tried to push & couldn't.
+I pulled from origin, auto merge failed because we'd bother edited this file as noted above. So I opened the file manually to make corrections / adjustments so that both sets of changes are copacetic.  Then I can complete the merge locally and push the merged files back to origin.
