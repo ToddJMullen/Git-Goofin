@@ -12,3 +12,5 @@ I'm adding this message in the middle here because I just re-read this and need 
 Then I undid the commit so that I could modify it (however) and then re-commit it using:
 	git reset --soft HEAD^
 ...and that's when I added thses last few lines to be included.
+
+This line was added remotely by the other guy in order to create a con flict in the second remote commit that will arise during the rebase that will be perfomed when the remote differs and I don't want to merge.
