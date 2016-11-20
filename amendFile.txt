@@ -1,1 +1,9 @@
-This file was added just to be ammended to the previous commit. It will have no new / updated commit message.
+This file was added just to be ammended to the previous commit. It will have no new / updated commit message using:
+	git commit --amend -m
+
+but git complained about me not giving it a message, so I left the -m flag off & it didn't like that either, so I gave it one and it opend vi to have me edit the previous commit message.
+
+Now that I've added these details, I'll add and commit the change at once using:
+	git commit -a -m "Add details in amendFile.txt"
+
+I have also createed a git hub repo called "Git-Goofin" added it as remote origin and pushed the local repo into it.  So, I will also push this next commit up into it afterward.
