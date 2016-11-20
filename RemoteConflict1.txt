@@ -1,4 +1,13 @@
 This is remote commit file 1
 
+** deleted <<<< start of conflicted area marker here **
 
 this is remote bug fix that's not in your repo
+^^I'm keeping the above foreign "bug fix" during my rebase^^
+** deleted ======= branch conflict markup here **
+I already know that there's something new on this line tht's been pushed up by someone else, but I am going to make this cahgen try & fail to push it and then I'm going to rebase my local repo  and that should force me to figure out how to merge this paragraph with the new version of this file in origin master.
+** deleted >>> end of conflicted area marker here **
+^^ the second block was my local addition to the same file / same lines.
+, and the <<<, >>>>>, and ======= markers divide up the overlapping versions that need to be merged.
+After everything between <<<<< and >>>> has been merged, remove the <<<< >>>> markers and the file has been "merged."  Add the file, commit it and done?
+Add lines to RemoteConflict.txt to conflict with updated origin master version of the file.
