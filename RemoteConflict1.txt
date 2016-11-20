@@ -9,5 +9,10 @@ I already know that there's something new on this line tht's been pushed up by s
 ** deleted >>> end of conflicted area marker here **
 ^^ the second block was my local addition to the same file / same lines.
 , and the <<<, >>>>>, and ======= markers divide up the overlapping versions that need to be merged.
-After everything between <<<<< and >>>> has been merged, remove the <<<< >>>> markers and the file has been "merged."  Add the file, commit it and done?
+After everything between <<<<< and >>>> has been merged, remove the <<<< >>>> markers and the file has been "merged."
+
+Add the file with $ git add fileName.ext
+then $ git rebase --continue
+Then commit it, push it, and done.
+
 Add lines to RemoteConflict.txt to conflict with updated origin master version of the file.
